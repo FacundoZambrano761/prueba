@@ -1,0 +1,85 @@
+#mercadoliebre {
+    width: 100%;
+}
+
+#lista {
+    text-align: left;
+}
+
+#titulo {
+    font-size: 24px;
+}
+
+#cuerpo{
+    font-size: 12px;
+    text-align: left;
+}
+
+#envio {
+    font-size: 16px;
+    text-align: left;
+}
+
+#precio {
+    font-size: 18px;
+    text-align: left;
+}
+
+#descuento {
+    font-size: 16px;
+    text-align: left;
+}
+
+#imagen {
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    background-color: #ebebeb;
+    font-size: 90%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+i{
+    font-size: 25px;
+}
+
+#barras {
+    background-color: #1259c3;
+    border: 30%;
+    padding: 10px;
+}
+
+#saludo {
+    text-align: left;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+#negrita {
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+#marcoProducto {
+    background-color: #ebebeb;
+    border-top: solid 1px #ebebeb;
+    border-left: 15px;
+    border-right: 15px;
+    box-sizing: border-box;
+}

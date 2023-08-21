@@ -1,0 +1,10 @@
+body {
+    background-color: yellow;
+}
+.negrita {
+    font-weight: bold;
+    
+}
+p{
+    position: relative;
+}
