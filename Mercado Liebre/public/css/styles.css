@@ -1,18 +1,33 @@
 #mercadoliebre {
-    width: 100%;
+    width: 70%;
+    text-align: left;
+}
+img {
+    text-align: center;       
 }
 
 #lista {
     text-align: left;
 }
 
+#barras {
+    background-color: #1259c3;
+    border: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
 #titulo {
     font-size: 24px;
 }
 
-#cuerpo{
-    font-size: 12px;
-    text-align: left;
+#marcoProducto {
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    border-left: 15px #ebebeb;
+    border-right: 15px #ebebeb;
+    box-sizing: border-box;
+    font-size: 70%;
 }
 
 #envio {
@@ -30,41 +45,38 @@
     text-align: left;
 }
 
-#imagen {
-    text-align: center;
+#cuerpo{
+    font-size: 12px;
+    text-align: left;
 }
 
+#descripcion {
+    display: none;
+    text-align: left;
+}
+
+
 header {
-    background-color: yellow;
-    text-align: center;
+    background-color: #EAC926;;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    text-align: center;
 }
 
 main {
-    text-align: center;
     background-color: #ebebeb;
-    font-size: 90%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 i{
-    font-size: 25px;
+    font-size: 15px;
 }
 
-#barras {
-    background-color: #1259c3;
-    border: 30%;
-    padding: 10px;
-}
 
-#saludo {
-    text-align: left;
-}
-
-footer {
-    background-color: white;
+#Copyright {
+    background-color: #ebebeb;
     text-align: center;
 }
 
@@ -73,13 +85,37 @@ footer {
 }
 
 p {
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
-#marcoProducto {
-    background-color: #ebebeb;
-    border-top: solid 1px #ebebeb;
-    border-left: 15px;
-    border-right: 15px;
-    box-sizing: border-box;
+
+
+@media (min-width: 361px){
+    #descripcion{
+        display: block;
+    };
+    #marcoProducto {
+        background-color: white;
+        border-top: solid 1px white;
+        border-left: 15px;
+        border-right: 15px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 70%;
+    };
+}
+@media (min-width: 796px){
+    #descripcion{
+        display: block;
+    };
+    #marcoProducto {
+        background-color: white;
+        border-top: solid 1px white;
+        border-left: 15px;
+        border-right: 15px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 70%;
+    };
 }
